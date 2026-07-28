@@ -1,0 +1,142 @@
+[
+  {
+    "category": "Fun Science",
+    "subcategory": "Animal Behavior",
+    "difficulty": "Easy",
+    "question": "A group of researchers found that this farm animal can recognize its own name, remembers human faces for years, and may dream while sleeping. What's the animal?",
+    "answer": "Pigs",
+    "context": "Pigs are considered one of the smartest domesticated animals on the planet, often ranked above dogs in cognitive tests. They can learn simple video games using a joystick controlled by their snout. Bacon's reputation might need updating.",
+    "grade": "GREEN",
+    "hook": "surprising_fact"
+  },
+  {
+    "category": "Money",
+    "subcategory": "Precious Metals",
+    "difficulty": "Medium",
+    "question": "In the 1800s, this metal was once considered more valuable than gold — so prized that Napoleon III gave his most honored dinner guests cutlery made from it, while lesser guests made do with gold. What's the metal?",
+    "answer": "Aluminum",
+    "context": "Aluminum was incredibly difficult to extract from ore before modern electrolysis methods. The Washington Monument's capstone is made of it, specifically to showcase how rare and impressive it was at the time. Today it's the stuff of soda cans.",
+    "grade": "GREEN",
+    "hook": "opposite_of_expected"
+  },
+  {
+    "category": "Health + Wellness",
+    "subcategory": "The Human Body",
+    "difficulty": "Easy",
+    "question": "Most people assume this chemical, famous for making us happy, is mainly produced in the brain. In fact, the vast majority of it — around 90 percent — is made somewhere else. Where?",
+    "answer": "Your gut",
+    "context": "Serotonin is closely tied to your digestive system, which is part of why your gut is sometimes called the second brain. It influences mood, but it also regulates digestion. Turns out happiness starts a lot closer to lunch than we thought.",
+    "grade": "GREEN",
+    "hook": "opposite_of_expected"
+  },
+  {
+    "category": "Food + Drink",
+    "subcategory": "Food Origins",
+    "difficulty": "Easy",
+    "question": "The Caesar salad sounds Roman. It isn't. It was actually invented by a restaurateur named Caesar, during Prohibition, in a country that was neither the U.S. nor Italy. Which country?",
+    "answer": "Mexico",
+    "context": "Caesar Cardini ran a restaurant in Tijuana, where Americans flocked to drink legally. The dish was thrown together one busy night with whatever was on hand. No Caesar, no Rome — just a hungry crowd and a clever chef.",
+    "grade": "GREEN",
+    "hook": "unfamiliar_origin"
+  },
+  {
+    "category": "Sports",
+    "subcategory": "The Marathon",
+    "difficulty": "Medium",
+    "question": "The marathon's distance — 26.2 miles — wasn't based on the original Greek legend at all. It was set at the 1908 Olympics for a very practical reason: so the race could end exactly in front of a specific person's seat. Whose?",
+    "answer": "The British royal family",
+    "context": "The 1908 London Olympics organizers extended the course so it would finish directly below the royal box. That extra distance stuck as the permanent standard. An entire sport's defining number, decided by sightlines.",
+    "grade": "GREEN",
+    "hook": "unexpected_reason"
+  },
+  {
+    "category": "Things You Forgot In School",
+    "subcategory": "Word Origins",
+    "difficulty": "Easy",
+    "question": "The word salary comes from a substance Roman soldiers were sometimes paid with instead of cash. It's something you probably have in your kitchen right now. What is it?",
+    "answer": "Salt",
+    "context": "The Latin word salarium is tied to sal, meaning salt, since salt was a valuable commodity used for preserving food. Whether soldiers were literally paid in salt or given an allowance to buy it is debated, but the linguistic link stuck. Next time you get a paycheck, thank a condiment.",
+    "grade": "GREEN",
+    "hook": "unfamiliar_origin"
+  },
+  {
+    "category": "Sports",
+    "subcategory": "Basketball History",
+    "difficulty": "Easy",
+    "question": "When basketball was invented in 1891, players scored by tossing the ball into a literal piece of fruit-picking equipment nailed to a balcony. What was it?",
+    "answer": "A peach basket",
+    "context": "Inventor James Naismith used actual peach baskets because that's what was available. Every time someone scored, a referee had to climb a ladder and fish the ball out by hand. It took until the 1900s for someone to think, maybe just cut a hole in it.",
+    "grade": "GREEN",
+    "hook": "surprising_fact"
+  },
+  {
+    "category": "Things You Forgot In School",
+    "subcategory": "American Presidents",
+    "difficulty": "Medium",
+    "question": "This U.S. president was inducted into the National Wrestling Hall of Fame in 1992, after going nearly undefeated in 300 matches before entering politics. Who is he?",
+    "answer": "Abraham Lincoln",
+    "context": "Lincoln wrestled for 12 years in Illinois and lost only once. He was considered the best in his county. His strength on the mat was well known long before he reached the White House.",
+    "grade": "GREEN",
+    "hook": "reframes_scale"
+  },
+  {
+    "category": "Food + Drink",
+    "subcategory": "Coffee",
+    "difficulty": "Medium",
+    "question": "Legend has it coffee was discovered after a goat herder noticed his goats acting unusually energetic after eating berries from a certain bush. In which country does this origin story take place?",
+    "answer": "Ethiopia",
+    "context": "The herder, Kaldi, supposedly tried the berries himself and felt the same burst of energy. The story is likely more folklore than fact, but Ethiopia is widely credited as coffee's birthplace. Either way, we owe a debt to some very caffeinated goats.",
+    "grade": "GREEN",
+    "hook": "unfamiliar_origin"
+  },
+  {
+    "category": "Things You Forgot In School",
+    "subcategory": "Moon Landing",
+    "difficulty": "Easy",
+    "question": "On July 20, 1969, two astronauts walked on the moon while a third stayed behind, alone, orbiting above in the command module. Who was that third astronaut?",
+    "answer": "Michael Collins",
+    "context": "While Neil Armstrong and Buzz Aldrin made history on the surface, Collins orbited the moon solo, at times losing radio contact with Earth entirely. He later said he didn't feel lonely — just incredibly busy. Sometimes the most underrated job is the one nobody remembers.",
+    "grade": "GREEN",
+    "hook": "reframes_scale"
+  },
+  {
+    "category": "Pop Culture + The Arts",
+    "subcategory": "Movie Soundtracks",
+    "difficulty": "Medium",
+    "question": "My Heart Will Go On almost didn't make it into Titanic. The director resisted adding a pop song and only relented after hearing a secret demo. Who directed Titanic?",
+    "answer": "James Cameron",
+    "context": "Cameron didn't want a vocal love theme, worried it would feel commercial. Composer James Horner secretly had Céline Dion record a demo and played it for Cameron without warning him. The song became one of the best-selling singles of all time.",
+    "grade": "GREEN",
+    "hook": "surprising_fact"
+  },
+  {
+    "category": "Pop Culture + The Arts",
+    "subcategory": "Classic Rock Songs",
+    "difficulty": "Medium",
+    "question": "Yesterday by the Beatles is the most covered song in history. But Paul McCartney wrote it with a completely different working title. What was it?",
+    "answer": "Scrambled Eggs",
+    "context": "The working lyric was: scrambled eggs, oh my baby how I love your legs. He used it for months while he figured out the real words. One of the most beloved songs ever written started as a breakfast order.",
+    "grade": "GREEN",
+    "hook": "unfamiliar_origin"
+  },
+  {
+    "category": "Health + Wellness",
+    "subcategory": "Baseball History",
+    "difficulty": "Medium",
+    "question": "To stay cool on hot game days, Babe Ruth hid something unusual under his cap. What was it?",
+    "answer": "Wet cabbage leaves",
+    "context": "Ruth kept wet cabbage under his cap and swapped in fresh ones between innings as they wilted. It sounds bizarre, but it's basically an old-school ice pack. The Sultan of Swat, defeated by produce management.",
+    "grade": "GREEN",
+    "hook": "surprising_fact"
+  },
+  {
+    "category": "Things You Forgot In School",
+    "subcategory": "World History",
+    "difficulty": "Medium",
+    "question": "Finland has one of the world's most unusual school systems — children don't start formal schooling until significantly later than most countries, and it still ranks among the best in global education results. Roughly what age do Finnish kids start school?",
+    "answer": "Age seven",
+    "context": "Finnish education prioritizes play-based early childhood over academics, with formal reading instruction starting much later than in the U.S. or U.K. Finland regularly ranks near the top of international education comparisons.",
+    "grade": "GREEN",
+    "hook": "opposite_of_expected"
+  }
+]
