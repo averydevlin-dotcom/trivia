@@ -1,28 +1,48 @@
-/**
- * GET /api/episodes?year=2026&month=8
- *
- * Returns the generated episodes for a given month from disk.
- */
-
 import { NextRequest, NextResponse } from "next/server";
-import fs from "fs";
-import path from "path";
+import { createClient } from "@supabase/supabase-js";
+
+function supabase() {
+  return createClient(
+    process.env.NEXT_PUBLIC_SUPABASE_URL!,
+    process.env.SUPABASE_SERVICE_ROLE_KEY!
+  );
+}
 
 export async function GET(req: NextRequest) {
   const { searchParams } = req.nextUrl;
-  const year  = searchParams.get("year")  ?? String(new Date().getFullYear());
-  const month = searchParams.get("month") ?? String(new Date().getMonth() + 1);
+  const year = searchParams.get("year");
+  const month = searchParams.get("month");
 
-  const file = path.join(
-    process.cwd(),
-    "data/output",
-    `${year}-${String(month).padStart(2, "0")}.json`
-  );
+  const db = supabase();
+  let query = db.from("episodes").select("*").order("date", { ascending: true });
 
-  if (!fs.existsSync(file)) {
-    return NextResponse.json([], { status: 200 });
+  if (year && month) {
+    const paddedMonth = month.padStart(2, "0");
+    query = query
+      .gte("date", `${year}-${paddedMonth}-01`)
+      .lte("date", `${year}-${paddedMonth}-31`);
   }
 
-  const data = JSON.parse(fs.readFileSync(file, "utf-8"));
-  return NextResponse.json(data);
+  const { data, error } = await query;
+  if (error) return NextResponse.json({ error: error.message }, { status: 500 });
+
+  const episodes = (data ?? []).map((row) => ({
+    date: row.date,
+    dayOfWeek: row.day_of_week,
+    category: row.category,
+    subcategory: row.subcategory,
+    difficulty: row.difficulty,
+    question: row.question,
+    answer: row.answer,
+    context: row.context,
+    script: (row.script_json as { content: string }[] | null)?.map(t => t.content).join("\n\n") ?? "",
+    tracks: row.script_json ?? [],
+    tomorrowCategory: row.tomorrow_category,
+    grade: row.grade,
+    isTimely: row.is_timely,
+    timelyNote: row.timely_note,
+    isFunDay: row.is_fun_day,
+  }));
+
+  return NextResponse.json(episodes);
 }
